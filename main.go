@@ -16,10 +16,8 @@ func main() {
 	glog.Debug(context.Background(), gtime.Now().String())
 	glog.Info(context.Background(), "哈！又不想自己想中午吃什么了！")
 	glog.Info(context.Background(), "那就让我来帮你吧！")
-	glog.Info(context.Background(), "自动决定中午吃什么机器人v0.1启动中！")
+	glog.Info(context.Background(), "自动决定中午吃什么机器人v0.5启动中！")
 	time.Sleep(2 * time.Second)
-	glog.Info(context.Background(), "自动决定中午吃什么机器人v0.1启动成功！")
-	glog.Info(context.Background(), "自动决定中午吃什么机器人v0.1开始工作！")
 	glog.Info(context.Background(), "正在决定中......")
 	time.Sleep(1 * time.Second)
 	for {
